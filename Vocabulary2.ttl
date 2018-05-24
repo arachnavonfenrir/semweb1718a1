@@ -1,0 +1,45 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://dilab77.ionio.gr/sw/p14klim/myvocab#Course>
+    a <http://www.w3.org/2000/01/rdfs-schema#Class> .
+
+<http://dilab77.ionio.gr/sw/p14klim/myvocab#Lector>
+    a <http://www.w3.org/2000/01/rdfs-schema#Class> .
+
+<http://dilab77.ionio.gr/sw/p14klim/myvocab#Lecture>
+    a <http://www.w3.org/2000/01/rdfs-schema#Class> .
+
+<http://dilab77.ionio.gr/sw/p14klim/myvocab#Room>
+    a <http://www.w3.org/2000/01/rdfs-schema#Class> .
+
+<http://dilab77.ionio.gr/sw/p14klim/myvocab#Αιθουσα>
+    a <http://www.w3.org/2000/01/rdf-schema#Property> ;
+    <http://www.w3.org/2000/01/rdfs-schema#domain> <http://dilab77.ionio.gr/sw/p14klim/myvocab#Lecture> ;
+    <http://www.w3.org/2000/01/rdfs-schema#range> <http://dilab77.ionio.gr/sw/p14klim/myvocab#Room> .
+
+<http://dilab77.ionio.gr/sw/p14klim/myvocab#Διδασκων>
+    a <http://www.w3.org/2000/01/rdf-schema#Property> ;
+    <http://www.w3.org/2000/01/rdfs-schema#domain> <http://dilab77.ionio.gr/sw/p14klim/myvocab#Lecture> ;
+    <http://www.w3.org/2000/01/rdfs-schema#range> <http://dilab77.ionio.gr/sw/p14klim/myvocab#Lector> ;
+    <http://www.w3.org/2000/01/rdfs-schema#sudclassof> <http://xmlns.com/foaf/0.1/Person> .
+
+<http://dilab77.ionio.gr/sw/p14klim/myvocab#Εναρξη>
+    a <http://www.w3.org/2000/01/rdf-schema#Property> ;
+    <http://www.w3.org/2000/01/rdfs-schema#domain> <http://dilab77.ionio.gr/sw/p14klim/myvocab#Lecture> ;
+    <http://www.w3.org/2000/01/rdfs-schema#range> <http://www.w3.org/2001/XMLSchema#time> .
+
+<http://dilab77.ionio.gr/sw/p14klim/myvocab#Ληξη>
+    a <http://www.w3.org/2000/01/rdf-schema#Property> ;
+    <http://www.w3.org/2000/01/rdfs-schema#domain> <http://dilab77.ionio.gr/sw/p14klim/myvocab#Lecture> ;
+    <http://www.w3.org/2000/01/rdfs-schema#range> <http://www.w3.org/2001/XMLSchema#time> .
+
+<http://dilab77.ionio.gr/sw/p14klim/myvocab#Μαθημα>
+    a <http://www.w3.org/2000/01/rdf-schema#Property> ;
+    <http://www.w3.org/2000/01/rdfs-schema#domain> <http://dilab77.ionio.gr/sw/p14klim/myvocab#Lecture> ;
+    <http://www.w3.org/2000/01/rdfs-schema#range> <http://dilab77.ionio.gr/sw/p14klim/myvocab#Course> .
+
+<http://dilab77.ionio.gr/sw/p14klim/myvocab#Μερα>
+    a <http://www.w3.org/2000/01/rdf-schema#Property> ;
+    <http://www.w3.org/2000/01/rdfs-schema#domain> <http://dilab77.ionio.gr/sw/p14klim/myvocab#Lecture> ;
+    <http://www.w3.org/2000/01/rdfs-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+
