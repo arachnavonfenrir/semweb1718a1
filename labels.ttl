@@ -1,0 +1,23 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+@prefix res: <http://dilab77.ionio.gr/sw/p14klim/resources> .
+
+<http://dilab77.ionio.gr/sw/p14klim/resources/Παραλληλος%20Πρ.> rdfs:label "Παραλληλος Προγραμματισμος" .
+
+<http://dilab77.ionio.gr/sw/p14klim/resources/Στρ.%20&%20Διοικ.%20ΠΣ> rdfs:label "Στρατιγικη Διοικισησης Πληροφοριακων Συστηματων" .
+
+<http://dilab77.ionio.gr/sw/p14klim/resources/Κοιν.&%20Σημ.%20Ιστος> rdfs:label "Κοινωνικος και σημασςιολογικος ιστος" .
+
+<http://dilab77.ionio.gr/sw/p14klim/resources/Διοικιση%20Ασφαλιας> rdfs:label "Διοικιση ασφαλιας"  .
+
+<http://dilab77.ionio.gr/sw/p14klim/resources/Ηλ.Διακυβερνηση> rdfs:label "Ηλεκτρονικη διακυβερνιση" . 
+
+<http://dilab77.ionio.gr/sw/p14klim/resources/Τσωχου%20Α.> rdfs:label "Τσωχου Α." .
+
+<http://dilab77.ionio.gr/sw/p14klim/resources/Πατελη%20Α.> rdfs:label "Πατελη Α." .
+
+<http://dilab77.ionio.gr/sw/p14klim/resources/Κουρουθανασης%20Π.> rdfs:label "Κουρουθανασης Π." .
+
+<http://dilab77.ionio.gr/sw/p14klim/resources/Στεφανιδακης%20Μ.>  rdfs:label "Στεφανιδακης Μ." .
+
+<http://dilab77.ionio.gr/sw/p14klim/resources/Μυλωνας%20Φ.> rdfs:label "Μυλωνας Φ." .
